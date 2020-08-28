@@ -1,0 +1,33 @@
+.header {
+  background: linear-gradient(rgb(101, 98, 134), rgba(34, 27, 109));
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.header__logo {
+  /* width: 100px; */
+  margin: 5px 14px;
+}
+.header__title {
+  display: block;
+  font-size: calc(1.2rem + 1vw);
+  font-family: "Open Sans Condensed", sans-serif;
+  flex: 1;
+  color: bisque;
+  letter-spacing: 2px;
+}
+.header__basket {
+  display: flex;
+  align-items: center;
+  color: wheat;
+}
+.header__basketCount {
+  margin: 5px 10px;
+  font-size: 24px;
+}
+.header__basketLogo {
+  font-size: 80px;
+}
