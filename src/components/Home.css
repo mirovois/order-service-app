@@ -1,0 +1,24 @@
+.home {
+  /* width: 100%; */
+  /* background: linear-gradient(
+    to bottom,
+    rgba(178, 212, 210, 0.849),
+    rgba(132, 163, 184, 0.849)
+  ); */
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.home__special {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home__additional {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
