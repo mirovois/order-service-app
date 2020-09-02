@@ -1,13 +1,5 @@
 export const initialState = {
-  basket: [
-    {
-      // id: 1,
-      // name: "byke",
-      // image:
-      //   "https://images-na.ssl-images-amazon.com/images/I/51rqlWxCcvL._SS160_.jpg",
-      // price: 20.99,
-    },
-  ],
+  basket: [],
 };
 
 export const calculateSubtotal = (basket) =>

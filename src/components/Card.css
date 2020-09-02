@@ -32,7 +32,7 @@
   color: var(--mainWhite);
   background: rgba(0, 0, 0, 0.7);
   padding: 0.3rem 1rem;
-  font-size: calc(0.4rem + 1vw);
+  font-size: calc(0.4rem + 1.2vw);
   font-weight: 600;
   letter-spacing: var(--mainSpacing);
   border-bottom-right-radius: 1rem;
@@ -53,7 +53,7 @@
   letter-spacing: var(--mainSpacing);
   color: var(--mainBlack);
   background: var(--darkGrey);
-  /* border: 3px solid var(--primaryColor); */
+
   transition: var(--mainTransition);
   text-transform: uppercase;
   /* cursor: pointer; */

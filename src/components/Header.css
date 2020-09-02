@@ -23,6 +23,7 @@
   display: flex;
   align-items: center;
   color: wheat;
+  padding-right: 0.5rem;
 }
 .header__basketCount {
   margin: 5px 10px;

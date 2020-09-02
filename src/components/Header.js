@@ -18,7 +18,9 @@ function Header() {
       <Link to="/checkout">
         <div className="header__basket">
           <ShoppingBasketIcon style={{ fontSize: "32px" }} />
-          <span className="header__basketCount">{basket?.length}</span>
+          {basket.length > 0 && (
+            <span className="header__basketCount">{basket?.length}</span>
+          )}
         </div>
       </Link>
     </nav>
