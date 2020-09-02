@@ -2,13 +2,14 @@ import React from "react";
 import "./Card.css";
 import { useStateValue } from "./StateProvider";
 
-function Card({ name, image, price }) {
+function Card({ id, name, image, price }) {
   const [{ basket }, dispatch] = useStateValue();
   const addToBasket = () => {
     // Add to basket
     dispatch({
       type: "ADD_TO_BASKET",
       item: {
+        id: id,
         name: name,
         image: image,
         price: price,

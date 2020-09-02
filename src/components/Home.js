@@ -14,7 +14,8 @@ function Home() {
       <div className="home__special">
         {Object.keys(lot1).map((key) => (
           <Card
-            key={key}
+            key={lot1[key].id}
+            id={lot1[key].id}
             name={lot1[key].name}
             image={lot1[key].image}
             desc={lot1[key].desc}

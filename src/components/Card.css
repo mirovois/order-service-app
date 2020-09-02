@@ -19,10 +19,8 @@
 .card > img {
   position: relative;
   width: 100%;
-  max-height: 225px;
-  /* width: 310px; */
+  max-height: 245px;
   object-fit: contain;
-  margin-bottom: 15px;
 }
 .card > img:hover {
   opacity: 0.8;
@@ -37,14 +35,33 @@
   font-size: calc(0.4rem + 1vw);
   font-weight: 600;
   letter-spacing: var(--mainSpacing);
+  border-bottom-right-radius: 1rem;
+  text-align: center;
+  transition: var(--mainTransition);
 }
-.card__info button {
+.card__info > button {
   position: absolute;
   right: 0;
   top: 0;
+  width: 35%;
   cursor: pointer;
   font-size: calc(0.4rem + 1vw);
-  padding: 0.3rem 1.2rem;
+  font-weight: 500;
+  padding: 0.3rem 0.1rem;
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  color: var(--mainBlack);
+  background: var(--darkGrey);
+  /* border: 3px solid var(--primaryColor); */
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  /* cursor: pointer; */
+}
+.card__info > button:hover {
+  /* background: transparent; */
+  opacity: 0.8;
+  color: var(--mainBlack);
 }
 
 .card__title {

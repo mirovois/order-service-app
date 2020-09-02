@@ -7,7 +7,7 @@
   --primaryColor: #af9a7d;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
-  --mainBlack: #222;
+  --mainBlack: rgb(37, 36, 36);
   --mainGrey: #ececec;
   --darkGrey: #b6b1b1;
   --mainTransition: all 0.3s linear;
